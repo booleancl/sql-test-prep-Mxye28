@@ -3,8 +3,8 @@
 DROP TABLE IF EXISTS details;
 CREATE TABLE details(
 id INTEGER NOT NULL,
-purchase_id INTEGER,
-product_id INTEGER,
+purchase_id INTEGER, 
+product_id INTEGER, 
 quantity INTEGER,
 price INTEGER,
 created_at TIMESTAMP,
